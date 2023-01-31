@@ -1,0 +1,165 @@
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    
+<html>
+    <head>
+        <script src="sources/javaScript/start.js"></script>
+<link rel="stylesheet" href="sources/css/testStyle.css">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>SychCode</title>
+         <link rel="shortcut icon" href="sources/img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <span id="language" attribute="1"></span>
+    <div class="content">
+        <header class="header">
+            <div class="containerLow">
+                <div class="header_body">
+                    <a href="#own" class="logo"><img src = "sources/img/logoTop.png" width="174" height="36"> </a>
+                    
+                    <div class="header_burger">
+                    <span></span>
+                    </div>
+                    
+                    <div class = "buttons">
+                        <ul class="buttons_list"><li>
+                    <a href="#about" class="button">О нас </a></li><li><font color="#7f5e97" class="stick"> | </font></li><li>
+                    <a href="#proc" class="button"> Процесс </a></li><li><font color="#7f5e97" class="stick"> | </font></li><li>
+                    <a href="#portf" class="button"> Портфолио </a></li><li><font color="#7f5e97" class="stick"> | </font></li><li>
+                    <a href="#cont" class="button"> Контакты </a></li><li><font color="#7f5e97" class="stick"> | </font></li><li>
+                    <a href="index.html" class="button">
+                        <img src="sources/img/flagEng.jpg" width="50px" height="37px" alt="en"> 
+                    </a></li><li>
+                    </li><li><font class="stick"> | </font></li><li>
+                    <a href="indexRu.html" class="button">
+                        <img src="sources/img/flagRu.jpg" width="50px" height="37px" alt="ru"> 
+                    </a></li>
+                            </ul>
+                </div>
+                </div>
+            </div>
+        </header>
+        <a name = "own"></a>
+            <div class= "container">
+                <div class="containerLow">
+                    <div class="bigLogo">
+                    <img src="sources/img/bigLogo.png" width="100%" height="100%">
+                    </div>
+                </div>
+                
+            </div>
+        <div class="bigContainer">
+        <div class="containerGrass">
+                <a name = "about"></a>
+                <div class="containerLow">
+                    
+                    <div class="aboutUs">
+
+                       
+                       <div class="first">
+                       <div class="title">Кто мы?</div>
+                            <div class = "text">Мы молодая команда, выполняющая проекты разной сложности на заказ.</div></div><div class="second">
+                        <div class="title">Чем мы занимаемся?</div>
+                            <div class = "text">Разработка веб-сайтов, графический дизайн, разработка чат-ботов.</div></div>
+                        
+                        <div class="third">
+                        <div class="title">Наша команда:</div>
+                        <div class = "text">В нашей команде есть программисты и дизайнеры в разных сферах со всех частей мира. <br>Дизайнеры, готовые выполнить работы любой сложности. <br>Программисты в области Java, Javascript,  Python и языков разметки. <br>Наш собственный штаб сотрудников.</div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="containerProc">
+                <a name="proc"></a>
+                <div class="containerLow">
+                    
+                <div class="titleProc">Процесс работы</div>
+                    <div class="procList">
+                            <div class="procNumber"> 
+                            <div class = "imgProc"><img src="sources/img/procPic1.png"></div>
+                            <div class = "textProc">1.Обговариваются нюансы проекта, задание, дедлайны и наше полное понимание чего вы хотите.</div>
+                            </div>
+                            <div class="procNumber">
+                                <div class = "imgProc" width="100%" height="100%"><img src="sources/img/procPic2.png"></div>
+                            <div class = "textProc">2. Дизайн или конструкция проекта, отправляется на утверждение вам и мы решаем, что можно изменить</div>
+                            </div>
+                            <div class="procNumber">
+                                <div class = "imgProc"><img src="sources/img/procPic3.png"></div>
+                            <div class = "textProc">3. Написание кода и утверждение проекта</div>
+                            </div>
+                            <div class="procNumber">
+                                <div class = "imgProc"><img src="sources/img/procPic4.png"></div>
+                            <div class = "textProc">4. Выдача файлов проекта вам на руки и/или выкладывание проекта на выбранный вами хост</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerPortf">
+                <a name ="portf"></a>
+                
+                <div class="containerLow">
+                    <div class = "titlePortf">Портфолио</div>
+                    <div class="portfBlock">
+                        
+                        <a onclick="left()" id="myBtn" class="btnLeft"><img src="sources/img/leftArrow.png"></a>
+
+                        <div class="blockSideLeft">
+                        <div class="titleBlockLeft" id="leftTitle">Графические работы</div>
+                        <div class="blockLeft"></div>
+                        <div class="descriptionBlockLeft" id="descriptionLeft">Работы наших графических дизайнеров.  Примеры того, что мы уже сделали</div>
+                        </div>
+                        <div class="blockCenter">
+                            <div class="titleBlockBig" id="centerTitle">Примеры сайтов</div>
+                            <div class="blockBig"></div>
+                            <div class="descriptionBlockBig" id="descriptionCenter">Представляем работы, которые мы сделали и примеры того, что мы можем сделать для вашего сайта</div>
+                            <div class="arrowsSmall">
+                                <div class="containerArrows">
+                                    <a onclick="left()" id="myBtn" class="btnLeft"><img src="sources/img/leftArrow.png"></a>
+                                    <a onclick="right()" id="myBtn" class="btnRight"><img src="sources/img/rightArrow.png"></a>
+                                </div>
+                            </div>
+                                
+                            <button onclick="more()" id="moreBtn" class="btnUnder">Показать примеры работ</button>
+                        </div>
+
+                        <div class="blockSideRight">
+                        <div class="titleBlockRight" id="rightTitle">Логотипы</div>
+                        <div class="blockRight"></div>
+                        <div class="descriptionBlockRight" id="descriptionRight" >Обработка логотипов, создание логотипов для вас и примеры того, что мы уже сделали</div>
+                        </div>
+
+                        <a onclick="right()" id="myBtn1" class="btnRight"><img src="sources/img/rightArrow.png"></a>
+                        </div>
+                    <div class = "examples">
+                    <div class="objectExample"></div>
+                </div>
+                    </div>
+                </div>
+                <div class="containerContacts">
+                <div class="containerContactsInner">
+                <div class="society">
+                    <a href="https://t.me/Sychyov">
+                        <img src="sources/img/telegramm.png" class="imgCont"></a>
+                    <a href="https://vk.com/iwiki2">
+                        <img src="sources/img/VKontact.png" class="imgCont"></a>
+                    <a href="https://www.instagram.com/sychcode/">
+                        <img src="sources/img/Instagramm.png" class="imgCont"> </a>
+                    <a name="cont"></a>
+                    
+                </div>
+                <div class="containerInner">
+                <img src="sources/img/LogoType.png" width="100%"><br>
+                <span>sychcodeit@gmail.com</span>
+                </div>
+            </div>
+                    </div>
+            </div>
+        </div>
+    
+    
+        
+        <script src="sources/javaScript/main.js"></script>
+        
+    </body>
+</html>
